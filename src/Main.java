@@ -7,5 +7,10 @@ public class Main {
         System.out.println();
         javaScript.setYearOfPublishing(2023);
         System.out.println(javaScript.getYearOfPublishing());
+        System.out.println();
+        System.out.println(javaScript.equals(typeScriptPro));
+        System.out.println(kirupa);
+        System.out.println(kirupa.equals(borisBlack));
+        System.out.println(typeScriptPro.hashCode());
     }
 }
